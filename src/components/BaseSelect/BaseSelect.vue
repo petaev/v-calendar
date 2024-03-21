@@ -43,6 +43,9 @@ interface BaseOption {
 
 export default {
   inheritAttrs: false,
+  compatConfig: {
+    MODE: 3,
+  },
 };
 </script>
 
